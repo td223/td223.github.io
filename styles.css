@@ -1,0 +1,78 @@
+:root {
+    --text-colour: #333333;
+    --link-colour: #9B9B9B;
+    --background-colour: #FAFAFA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Science Gothic', sans-serif;
+    color: var(--text-colour);
+    background-color: var(--background-colour);
+}
+
+a{
+    color: var(--link-colour);
+    text-decoration: none;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+}
+
+nav .left a{
+    color: var(--text-colour);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+nav .right a{
+    color: var(--text-colour);
+    margin: 0 15px;
+}
+
+nav .right a span{
+    margin-left: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    margin: 50px 0;
+
+}
+
+.hero-section .text{
+    flex: 15;
+
+}
+
+.hero-section .text h2{
+    font-size: 45px;
+}
+
+.hero-section .text links{
+    margin-top: 20px;
+    display:inline-block
+}
+
+.hero-section .headshot{
+    flex: 1;
+}
